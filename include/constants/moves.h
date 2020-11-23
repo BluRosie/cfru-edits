@@ -745,61 +745,84 @@
 #define MOVE_THUNDERCAGE 0x2E2
 #define MOVE_DRAGONENERGY 0x2E3
 
-//Z-Moves
-#define MOVE_BREAKNECK_BLITZ_P 0x2E4
-#define MOVE_BREAKNECK_BLITZ_S 0x2E5
-#define MOVE_ALL_OUT_PUMMELING_P 0x2E6
-#define MOVE_ALL_OUT_PUMMELING_S 0x2E7
-#define MOVE_SUPERSONIC_SKYSTRIKE_P 0x2E8
-#define MOVE_SUPERSONIC_SKYSTRIKE_S 0x2E9
-#define MOVE_ACID_DOWNPOUR_P 0x2EA
-#define MOVE_ACID_DOWNPOUR_S 0x2EB
-#define MOVE_TECTONIC_RAGE_P 0x2EC
-#define MOVE_TECTONIC_RAGE_S 0x2ED
-#define MOVE_CONTINENTAL_CRUSH_P 0x2EE
-#define MOVE_CONTINENTAL_CRUSH_S 0x2EF
-#define MOVE_SAVAGE_SPIN_OUT_P 0x2F0
-#define MOVE_SAVAGE_SPIN_OUT_S 0x2F1
-#define MOVE_NEVER_ENDING_NIGHTMARE_P 0x2F2
-#define MOVE_NEVER_ENDING_NIGHTMARE_S 0x2F3
-#define MOVE_CORKSCREW_CRASH_P 0x2F4
-#define MOVE_CORKSCREW_CRASH_S 0x2F5
-#define MOVE_INFERNO_OVERDRIVE_P 0x2F6
-#define MOVE_INFERNO_OVERDRIVE_S 0x2F7
-#define MOVE_HYDRO_VORTEX_P 0x2F8
-#define MOVE_HYDRO_VORTEX_S 0x2F9
-#define MOVE_BLOOM_DOOM_P 0x2FA
-#define MOVE_BLOOM_DOOM_S 0x2FB
-#define MOVE_GIGAVOLT_HAVOC_P 0x2FC
-#define MOVE_GIGAVOLT_HAVOC_S 0x2FD
-#define MOVE_SHATTERED_PSYCHE_P 0x2FE
-#define MOVE_SHATTERED_PSYCHE_S 0x2FF
-#define MOVE_SUBZERO_SLAMMER_P 0x300
-#define MOVE_SUBZERO_SLAMMER_S 0x301
-#define MOVE_DEVASTATING_DRAKE_P 0x302
-#define MOVE_DEVASTATING_DRAKE_S 0x303
-#define MOVE_BLACK_HOLE_ECLIPSE_P 0x304
-#define MOVE_BLACK_HOLE_ECLIPSE_S 0x305
-#define MOVE_TWINKLE_TACKLE_P 0x306
-#define MOVE_TWINKLE_TACKLE_S 0x307
+#define MOVE_DIAMONDCUT 0x2E4  //@DIAMONDCUT        Crystal Onix, Carbyne Steelix, Dialga
+#define MOVE_ROCKETRUSH 0x2E5  //@ROCKETRUSH        Tutor move: all Rockets Pokemon (make list)
+#define MOVE_RELICPOWER 0x2E6  //@RELICPOWER   @Type, power, and effect based on held Relic item     Claydol, Golurk, Bronzong, Sigilyph, Regi family
+#define MOVE_PCDUMP 0x2E7      //@PCDUMP        Glitch Porygon family, Glitch pokemon (if in)
+#define MOVE_DRAGONROAR 0x2E8  //@DRAGONROAR        Rayquaza
+#define MOVE_ARCANEBOLT 0x2E9  //@ARCANEBOLT  Arcane Bolts  @Sets Electric Terrain, 90 BP, 30% chance of paralysis    
+#define MOVE_ARCANEFLARE 0x2EA  //@ARCANEFLARE  Arcane Flare  @Sets Sunny weather, 90 BP, 30% chance of burn    
+#define MOVE_ARCANEFROST 0x2EB  //@ARCANEFROST  Arcane Frost  @Sets Hail weather, 90 BP, 30% chance of freeze    
+#define MOVE_NEWMOVE09 0x2EC  //@Emerald Power        
+#define MOVE_NEWMOVE10 0x2ED  //@Emerald Beam        
+#define MOVE_NEWMOVE11 0x2EE  //@Emerald Wall        
+#define MOVE_NEWMOVE12 0x2EF  //@Emerald Condition        
+#define MOVE_NEWMOVE13 0x2F0  //@Emerald Blast        
+#define MOVE_NEWMOVE14 0x2F1  //@Emerald Shatter        
+#define MOVE_NEWMOVE15 0x2F2  //@EMERALDEND   @100% KOs  Deoxys, Rayquaza   
+#define MOVE_NEWMOVE16 0x2F3  //@EMERALDFIRE   @100% burns  Entei, Moltres, Ho-oh   
+#define MOVE_NEWMOVE17 0x2F4  //@EMERALDBOLT   @100% paralyzes  Deoxys, Raikou, Zapdos   
+#define MOVE_NEWMOVE18 0x2F5  //@EMERALDICE   @100% freezes  Deoxys, Articuno   
+#define MOVE_NEWMOVE19 0x2F6  //@EMERALDSEA   @100% sleep  Suicune   
+#define MOVE_NEWMOVE20 0x2F7  //@EMERALDMIND   @100% confuses  Deoxys, Lugia   
 
-#define MOVE_CATASTROPIKA 0x308
-#define MOVE_10000000_VOLT_THUNDERBOLT 0x309
-#define MOVE_STOKED_SPARKSURFER 0x30A			//Paralyze Target
-#define MOVE_EXTREME_EVOBOOST 0x30B				//Double Ancient Power
-#define MOVE_PULVERIZING_PANCAKE 0x30C
-#define MOVE_GENESIS_SUPERNOVA 0x30D			//Sets up Psychic Terrain
-#define MOVE_SINISTER_ARROW_RAID 0x30E
-#define MOVE_MALICIOUS_MOONSAULT 0x30F
-#define MOVE_OCEANIC_OPERETTA 0x310
-#define MOVE_SPLINTERED_STORMSHARDS 0x311		//Removes Terrain
-#define MOVE_LETS_SNUGGLE_FOREVER 0x312
-#define MOVE_CLANGOROUS_SOULBLAZE 0x313			//Ancient Power
-#define MOVE_GUARDIAN_OF_ALOLA 0x314
-#define MOVE_SEARING_SUNRAZE_SMASH 0x315
-#define MOVE_MENACING_MOONRAZE_MAELSTROM 0x316
-#define MOVE_LIGHT_THAT_BURNS_THE_SKY 0x317
-#define MOVE_SOUL_STEALING_7_STAR_STRIKE 0x318
+
+
+//Z-Moves
+#define MOVE_BREAKNECK_BLITZ_P 0x2F8          
+#define MOVE_BREAKNECK_BLITZ_S 0x2F9          
+#define MOVE_ALL_OUT_PUMMELING_P 0x2FA          
+#define MOVE_ALL_OUT_PUMMELING_S 0x2FB          
+#define MOVE_SUPERSONIC_SKYSTRIKE_P 0x2FC          
+#define MOVE_SUPERSONIC_SKYSTRIKE_S 0x2FD          
+#define MOVE_ACID_DOWNPOUR_P 0x2FE          
+#define MOVE_ACID_DOWNPOUR_S 0x2FF          
+#define MOVE_TECTONIC_RAGE_P 0x300          
+#define MOVE_TECTONIC_RAGE_S 0x301          
+#define MOVE_CONTINENTAL_CRUSH_P 0x302          
+#define MOVE_CONTINENTAL_CRUSH_S 0x303          
+#define MOVE_SAVAGE_SPIN_OUT_P 0x304          
+#define MOVE_SAVAGE_SPIN_OUT_S 0x305          
+#define MOVE_NEVER_ENDING_NIGHTMARE_P 0x306          
+#define MOVE_NEVER_ENDING_NIGHTMARE_S 0x307          
+#define MOVE_CORKSCREW_CRASH_P 0x308          
+#define MOVE_CORKSCREW_CRASH_S 0x309          
+#define MOVE_INFERNO_OVERDRIVE_P 0x30A          
+#define MOVE_INFERNO_OVERDRIVE_S 0x30B          
+#define MOVE_HYDRO_VORTEX_P 0x30C          
+#define MOVE_HYDRO_VORTEX_S 0x30D          
+#define MOVE_BLOOM_DOOM_P 0x30E          
+#define MOVE_BLOOM_DOOM_S 0x30F          
+#define MOVE_GIGAVOLT_HAVOC_P 0x310          
+#define MOVE_GIGAVOLT_HAVOC_S 0x311          
+#define MOVE_SHATTERED_PSYCHE_P 0x312          
+#define MOVE_SHATTERED_PSYCHE_S 0x313          
+#define MOVE_SUBZERO_SLAMMER_P 0x314        
+#define MOVE_SUBZERO_SLAMMER_S 0x315       
+#define MOVE_DEVASTATING_DRAKE_P 0x316          
+#define MOVE_DEVASTATING_DRAKE_S 0x317        
+#define MOVE_BLACK_HOLE_ECLIPSE_P 0x318          
+#define MOVE_BLACK_HOLE_ECLIPSE_S 0x319          
+#define MOVE_TWINKLE_TACKLE_P 0x31A          
+#define MOVE_TWINKLE_TACKLE_S 0x31B          
+
+#define MOVE_CATASTROPIKA 0x31C        
+#define MOVE_10000000_VOLT_THUNDERBOLT 0x31D          
+#define MOVE_STOKED_SPARKSURFER 0x31E          
+#define MOVE_EXTREME_EVOBOOST 0x31F          
+#define MOVE_PULVERIZING_PANCAKE 0x320          
+#define MOVE_GENESIS_SUPERNOVA 0x321          
+#define MOVE_SINISTER_ARROW_RAID 0x322          
+#define MOVE_MALICIOUS_MOONSAULT 0x323         
+#define MOVE_OCEANIC_OPERETTA 0x324         
+#define MOVE_SPLINTERED_STORMSHARDS 0x325          
+#define MOVE_LETS_SNUGGLE_FOREVER 0x326          
+#define MOVE_CLANGOROUS_SOULBLAZE 0x327          
+#define MOVE_GUARDIAN_OF_ALOLA 0x328          
+#define MOVE_SEARING_SUNRAZE_SMASH 0x329          
+#define MOVE_MENACING_MOONRAZE_MAELSTROM 0x32A          
+#define MOVE_LIGHT_THAT_BURNS_THE_SKY 0x32B          
+#define MOVE_SOUL_STEALING_7_STAR_STRIKE 0x32C  
 
 #define FIRST_Z_MOVE        MOVE_BREAKNECK_BLITZ_P
 #define LAST_Z_MOVE         MOVE_SOUL_STEALING_7_STAR_STRIKE

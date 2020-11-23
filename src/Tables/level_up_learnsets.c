@@ -18541,12 +18541,12 @@ static const struct LevelUpMove sCalyrexLevelUpLearnset[] = {
 	LEVEL_UP_END
 }; 
 
-static const struct LevelUpMove sRegielekiLevelUpLearnset[] = { // mark
+static const struct LevelUpMove sRegielekiLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_SPARK),
 	LEVEL_UP_END
 }; 
 
-static const struct LevelUpMove sRegidragoLevelUpLearnset[] = { // mark
+static const struct LevelUpMove sRegidragoLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_DRAGONCLAW),
 	LEVEL_UP_END
 }; 
@@ -19808,10 +19808,10 @@ const struct LevelUpMove* const gLevelUpLearnsets[] =
 	[SPECIES_ROTOM_TANK] = sRotomLevelUpLearnset,
 	[SPECIES_ROTOM_DRONE] = sRotomLevelUpLearnset,
 	[SPECIES_ROTOM_NEWFORM] = sRotomLevelUpLearnset,
-	[SPECIES_DEOXYS_NORMAL] = sDeoxysLevelUpLearnset, //These should be fixed
-	[SPECIES_DEOXYS_ATTACK] = sDeoxysLevelUpLearnset, //These should be fixed
-	[SPECIES_DEOXYS_DEFENSE] = sDeoxysLevelUpLearnset, //These should be fixed
-	[SPECIES_DEOXYS_SPEED] = sDeoxysLevelUpLearnset, //These should be fixed
+	[SPECIES_DEOXYS_NORMAL] = sDeoxysLevelUpLearnset,
+	[SPECIES_DEOXYS_ATTACK] = sDeoxysAttackLevelUpLearnset,
+	[SPECIES_DEOXYS_DEFENSE] = sDeoxysDefenseLevelUpLearnset,
+	[SPECIES_DEOXYS_SPEED] = sDeoxysSpeedLevelUpLearnset,
 	[SPECIES_RAIKOU_CRYSTAL] = sRaikouLevelUpLearnset,
 	[SPECIES_ENTEI_CRYSTAL] = sEnteiLevelUpLearnset,
 	[SPECIES_SUICUNE_CRYSTAL] = sSuicuneLevelUpLearnset,
@@ -19854,7 +19854,7 @@ const struct LevelUpMove* const gLevelUpLearnsets[] =
 	[SPECIES_ZYGARDE_10] = sZygardeLevelUpLearnset,
 	[SPECIES_ZYGARDE_COMPLETE] = sZygardeLevelUpLearnset,
 	
-	[SPECIES_BANETTE_CLEFAIRYDOLL] = sBanetteCFLevelUpLearnset, //New set
+	[SPECIES_BANETTE_CLEFAIRYDOLL] = sBanetteCDLevelUpLearnset, //New set
 	[SPECIES_BANETTE_LCDOLL] = sBanetteLCLevelUpLearnset, //New set
 	[SPECIES_BANETTE_DJDOLL] = sBanetteDJLevelUpLearnset, //New set
 	
@@ -19946,11 +19946,11 @@ const struct LevelUpMove* const gLevelUpLearnsets[] =
 	[SPECIES_DUSKULL_SOLSTICE] = sDuskullLevelUpLearnset,
 	[SPECIES_DUSCLOPS_SOLSTICE] = sDusclopsLevelUpLearnset,
 	[SPECIES_DUSKNOIR_SOLSTICE] = sDusknoirLevelUpLearnset,
-	[SPECIES_RSM_RADIO] = sRocketSMLevelUpLearnset, // mark
-	[SPECIES_RSM_TICKLE] = sRocketSMLevelUpLearnset, // mark
-	[SPECIES_RSM_SLEEP] = sRocketSMLevelUpLearnset, // mark
-	[SPECIES_RSM_DIGGER] = sRocketSMLevelUpLearnset, // mark
-	[SPECIES_RSM_ERROR] = sRocketSMLevelUpLearnset, // mark
+	[SPECIES_RSM_RADIO] = sRocketSMLevelUpLearnset,
+	[SPECIES_RSM_TICKLE] = sRocketSMLevelUpLearnset,
+	[SPECIES_RSM_SLEEP] = sRocketSMLevelUpLearnset,
+	[SPECIES_RSM_DIGGER] = sRocketSMLevelUpLearnset,
+	[SPECIES_RSM_ERROR] = sRocketSMLevelUpLearnset,
 	[SPECIES_PONYTA_G] = sPonytaGLevelUpLearnset,
 	[SPECIES_RAPIDASH_G] = sRapidashGLevelUpLearnset,
 	[SPECIES_COSMOG] = sCosmogLevelUpLearnset,
