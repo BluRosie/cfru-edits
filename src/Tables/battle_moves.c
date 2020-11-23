@@ -11957,6 +11957,326 @@ const struct BattleMove gBattleMoves[] =
 		.split = SPLIT_SPECIAL,
 		.z_move_effect = 0
 	},
+	
+	[MOVE_DIAMONDCUT] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_ROCKETRUSH] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_RELICPOWER] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_PCDUMP] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_DRAGONROAR] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_ARCANEBOLT] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_ARCANEFLARE] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_ARCANEFROST] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE09] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE10] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE11] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE12] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE13] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE14] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE15] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE16] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE17] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE18] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE19] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
+	
+	[MOVE_NEWMOVE20] = 
+	{	//ANIM TODO
+		.effect = EFFECT_HIT,
+		.power = 40, //PLACEHOLDER DATA
+		.type = TYPE_NORMAL,
+		.accuracy = 0,
+		.pp = 0,
+		.secondaryEffectChance = 0,
+		.target = MOVE_TARGET_SELECTED,
+		.priority = 0,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
+	},
 
 	[MOVE_BREAKNECK_BLITZ_P] =
 	{
