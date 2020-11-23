@@ -1159,6 +1159,66 @@ A cage made of\nelectricity that traps\nthe target for four\nto five turns.
 #org @DESC_DRAGON_ENERGY
 The higher the\nuser's HP, the\nmore powerful this\nattack becomes.
 
+#org @DESC_DIAMOND_CUT
+Temp
+
+#org @DESC_ROCKET_RUSH
+Temp
+
+#org @DESC_RELIC_POWER
+Temp
+
+#org @DESC_PC_DUMP
+Temp
+
+#org @DESC_DRAGON_ROAR
+Temp
+
+#org @DESC_ARCANE_BOLT
+Temp
+
+#org @DESC_ARCANE_FLARE
+Temp
+
+#org @DESC_ARCANE_FROST
+Temp
+
+#org @DESC_NEWMOVE09
+Temp
+
+#org @DESC_NEWMOVE10
+Temp
+
+#org @DESC_NEWMOVE11
+Temp
+
+#org @DESC_NEWMOVE12
+Temp
+
+#org @DESC_NEWMOVE13
+Temp
+
+#org @DESC_NEWMOVE14
+Temp
+
+#org @DESC_NEWMOVE15
+Temp
+
+#org @DESC_NEWMOVE16
+Temp
+
+#org @DESC_NEWMOVE17
+Temp
+
+#org @DESC_NEWMOVE18
+Temp
+
+#org @DESC_NEWMOVE19
+Temp
+
+#org @DESC_NEWMOVE20
+Temp
+
 #org @DESC_MAX_GUARD
 Enables the user to\nevade all attacks.\nIt may fail if used\nin succession.
 
