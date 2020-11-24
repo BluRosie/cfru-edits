@@ -1161,22 +1161,22 @@ The higher the\nuser's HP, the\nmore powerful this\nattack becomes.
 
 
 #org @DESC_DIAMOND_CUT
-The user slashes a foe\nwith its diamond-like\nbody. It is also\nsuper effective on\nSteel types.
+The user slices a foe\nwith its diamond-like\nbody. It is also\nsuper effective on\nSteel types.
 
 #org @DESC_ROCKET_RUSH
-The user launches into\nthe foe at rocket\nspeed. It also hurts\nthe user.
+The user launches at\nthe foe at rocket\nspeed. It also hurts\nthe user.
 
 #org @DESC_RELIC_POWER
 The type and base\npower of this move\nis determined by\nthe user's Relic item.
 
 #org @DESC_PC_DUMP
-The user hacks into\nthe PC Storage\nSystem and dumps out\nthe last used Box.
+The user hacks into\nthe PC Storage\nSystem, dumping out\nthe last used Box.
 
 #org @DESC_DRAGON_ROAR
 A mystical draconic\nroar is loosed that\nmay cause a foe to\nflinch.
 
 #org @DESC_ARCANE_BOLT
-A secret technique\nusing Electric power\nto great effect.\nIt may paralyze a foe.
+A secret technique\nusing Electric power\nto great effect.\nIt may paralyze.
 
 #org @DESC_ARCANE_FLARE
 A secret technique\nusing Fire power\nto great effect.\nIt may burn a foe.
