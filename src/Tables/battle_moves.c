@@ -11961,31 +11961,31 @@ const struct BattleMove gBattleMoves[] =
 	[MOVE_DIAMONDCUT] = 
 	{	//ANIM TODO
 		.effect = EFFECT_HIT,
-		.power = 40, //PLACEHOLDER DATA
-		.type = TYPE_NORMAL,
-		.accuracy = 0,
-		.pp = 0,
+		.power = 70, //PLACEHOLDER DATA
+		.type = TYPE_STEEL,
+		.accuracy = 100,
+		.pp = 15,
 		.secondaryEffectChance = 0,
 		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-		.z_move_power = 100,
+		.z_move_power = 110,
 		.split = SPLIT_PHYSICAL,
 		.z_move_effect = 0
 	},
 	
 	[MOVE_ROCKETRUSH] = 
 	{	//ANIM TODO
-		.effect = EFFECT_HIT,
-		.power = 40, //PLACEHOLDER DATA
-		.type = TYPE_NORMAL,
-		.accuracy = 0,
-		.pp = 0,
+		.effect = EFFECT_RECOIL,
+		.power = 100, //PLACEHOLDER DATA
+		.type = TYPE_DARK,
+		.accuracy = 95,
+		.pp = 15,
 		.secondaryEffectChance = 0,
 		.target = MOVE_TARGET_SELECTED,
-		.priority = 0,
+		.priority = 1,
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-		.z_move_power = 100,
+		.z_move_power = 175,
 		.split = SPLIT_PHYSICAL,
 		.z_move_effect = 0
 	},
@@ -11993,96 +11993,96 @@ const struct BattleMove gBattleMoves[] =
 	[MOVE_RELICPOWER] = 
 	{	//ANIM TODO
 		.effect = EFFECT_HIT,
-		.power = 40, //PLACEHOLDER DATA
+		.power = 1, //PLACEHOLDER DATA
 		.type = TYPE_NORMAL,
 		.accuracy = 0,
-		.pp = 0,
+		.pp = 10,
 		.secondaryEffectChance = 0,
 		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
 		.z_move_power = 100,
-		.split = SPLIT_PHYSICAL,
+		.split = SPLIT_SPECIAL,
 		.z_move_effect = 0
 	},
 	
 	[MOVE_PCDUMP] = 
 	{	//ANIM TODO
 		.effect = EFFECT_HIT,
-		.power = 40, //PLACEHOLDER DATA
-		.type = TYPE_NORMAL,
-		.accuracy = 0,
-		.pp = 0,
+		.power = 1, //PLACEHOLDER DATA
+		.type = TYPE_MYSTERY,
+		.accuracy = 100,
+		.pp = 10,
 		.secondaryEffectChance = 0,
 		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
 		.z_move_power = 100,
-		.split = SPLIT_PHYSICAL,
+		.split = SPLIT_SPECIAL,
 		.z_move_effect = 0
 	},
 	
 	[MOVE_DRAGONROAR] = 
 	{	//ANIM TODO
-		.effect = EFFECT_HIT,
-		.power = 40, //PLACEHOLDER DATA
-		.type = TYPE_NORMAL,
-		.accuracy = 0,
-		.pp = 0,
-		.secondaryEffectChance = 0,
+		.effect = EFFECT_FLINCH_HIT,
+		.power = 80, //PLACEHOLDER DATA
+		.type = TYPE_DRAGON,
+		.accuracy = 100,
+		.pp = 10,
+		.secondaryEffectChance = 20,
 		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-		.z_move_power = 100,
-		.split = SPLIT_PHYSICAL,
+		.z_move_power = 130,
+		.split = SPLIT_SPECIAL,
 		.z_move_effect = 0
 	},
 	
 	[MOVE_ARCANEBOLT] = 
 	{	//ANIM TODO
 		.effect = EFFECT_HIT,
-		.power = 40, //PLACEHOLDER DATA
-		.type = TYPE_NORMAL,
-		.accuracy = 0,
-		.pp = 0,
+		.power = 60, //PLACEHOLDER DATA
+		.type = TYPE_ELECTRIC,
+		.accuracy = 100,
+		.pp = 15,
 		.secondaryEffectChance = 0,
 		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-		.z_move_power = 100,
-		.split = SPLIT_PHYSICAL,
+		.z_move_power = 120,
+		.split = SPLIT_SPECIAL,
 		.z_move_effect = 0
 	},
 	
 	[MOVE_ARCANEFLARE] = 
 	{	//ANIM TODO
 		.effect = EFFECT_HIT,
-		.power = 40, //PLACEHOLDER DATA
-		.type = TYPE_NORMAL,
-		.accuracy = 0,
-		.pp = 0,
+		.power = 60, //PLACEHOLDER DATA
+		.type = TYPE_FIRE,
+		.accuracy = 100,
+		.pp = 15,
 		.secondaryEffectChance = 0,
 		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-		.z_move_power = 100,
-		.split = SPLIT_PHYSICAL,
+		.z_move_power = 120,
+		.split = SPLIT_SPECIAL,
 		.z_move_effect = 0
 	},
 	
 	[MOVE_ARCANEFROST] = 
 	{	//ANIM TODO
 		.effect = EFFECT_HIT,
-		.power = 40, //PLACEHOLDER DATA
-		.type = TYPE_NORMAL,
-		.accuracy = 0,
-		.pp = 0,
+		.power = 60, //PLACEHOLDER DATA
+		.type = TYPE_ICE,
+		.accuracy = 100,
+		.pp = 15,
 		.secondaryEffectChance = 0,
 		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-		.z_move_power = 100,
-		.split = SPLIT_PHYSICAL,
+		.z_move_power = 120,
+		.split = SPLIT_SPECIAL,
 		.z_move_effect = 0
 	},
 	

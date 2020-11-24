@@ -1159,65 +1159,68 @@ A cage made of\nelectricity that traps\nthe target for four\nto five turns.
 #org @DESC_DRAGON_ENERGY
 The higher the\nuser's HP, the\nmore powerful this\nattack becomes.
 
+
 #org @DESC_DIAMOND_CUT
-Temp
+The user slashes a foe\nwith its diamond-like\nbody. It is also\nsuper effective on\nSteel types.
 
 #org @DESC_ROCKET_RUSH
-Temp
+The user launches into\nthe foe at rocket\nspeed. It also hurts\nthe user.
 
 #org @DESC_RELIC_POWER
-Temp
+The type and base\npower of this move\nis determined by\nthe user's Relic item.
 
 #org @DESC_PC_DUMP
-Temp
+The user hacks into\nthe PC Storage\nSystem and dumps out\nthe last used Box.
 
 #org @DESC_DRAGON_ROAR
-Temp
+A mystical draconic\nroar is loosed that\nmay cause a foe to\nflinch.
 
 #org @DESC_ARCANE_BOLT
-Temp
+A secret technique\nusing Electric power\nto great effect.\nIt may paralyze a foe.
 
 #org @DESC_ARCANE_FLARE
-Temp
+A secret technique\nusing Fire power\nto great effect.\nIt may burn a foe.
 
 #org @DESC_ARCANE_FROST
-Temp
+A secret technique\nusing Ice power\nto great effect.\nIt may freeze a foe.
+
 
 #org @DESC_NEWMOVE09
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE10
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE11
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE12
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE13
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE14
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE15
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE16
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE17
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE18
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE19
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
 
 #org @DESC_NEWMOVE20
-Temp
+This curious move uses\nthe Emerald Tablet's\npower. Its effects\nare unknown.
+
 
 #org @DESC_MAX_GUARD
 Enables the user to\nevade all attacks.\nIt may fail if used\nin succession.
