@@ -3404,6 +3404,13 @@ static u16 AdjustBasePower(struct DamageCalc* data, u16 power)
 			//1.3x Boost
 			power = (power * 13) / 10;
 			break;
+
+		case ITEM_EFFECT_MAGNET_CUBE:
+			//1.2x Boost on electric and steel type moves if mon is magnezone spaceship
+			if ((data->atkSpecies == SPECIES_MAGNEZONE_SPACESHIP) 
+			&& (data->moveType == TYPE_ELECTRIC || data->moveType == TYPE_STEEL))
+				power = (power * 12) / 10;
+			break;
 	}
 
 	//Gem activated at runtime
