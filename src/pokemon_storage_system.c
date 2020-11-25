@@ -149,7 +149,6 @@ u8* const sPokemonBoxWallpaperPtrs[TOTAL_BOXES_COUNT] =
 //This file's functions:
 void CreateBoxMonFromCompressedMon(struct BoxPokemon* boxMon, struct CompressedPokemon* compMon);
 void CreateCompressedMonFromBoxMon(struct BoxPokemon* boxMon, struct CompressedPokemon* compMon);
-struct CompressedPokemon* GetCompressedMonPtr(u8 boxId, u8 boxPosition);
 
 u32 GetBoxMonDataAt(u8 boxId, u8 boxPosition, s32 request)
 {

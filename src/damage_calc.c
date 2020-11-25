@@ -2,6 +2,7 @@
 #include "defines_battle.h"
 #include "../include/event_data.h"
 #include "../include/pokedex.h"
+#include "../include/pokemon_storage_system.h"
 #include "../include/random.h"
 #include "../include/constants/items.h"
 #include "../include/constants/pokedex.h"
@@ -17,6 +18,7 @@
 #include "../include/new/util.h"
 #include "../include/new/item.h"
 #include "../include/new/move_tables.h"
+#include "../include/new/pokemon_storage_system.h"
 
 #include "Tables/type_tables.h"
 
@@ -3108,6 +3110,30 @@ static u16 GetBasePower(struct DamageCalc* data)
 			if (gNewBS->statFellThisRound[bankAtk])
 				power *= 2;
 			break;
+		
+		case MOVE_PCDUMP:
+			if ((gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_TRAINER_TOWER | BATTLE_TYPE_FRONTIER | BATTLE_TYPE_EREADER_TRAINER)) 
+			|| IsFrontierRaidBattle())
+				power = 50;
+			else
+			{
+				int boxPos;
+				int numMons = 0;
+
+				for (boxPos = 0; boxPos < 30; boxPos++)
+				{
+					struct CompressedPokemon* checkingMon = GetCompressedMonPtr(StorageGetCurrentBox(), boxPos);
+					if (checkingMon->substruct0.species != 0)
+						numMons++; // by not breaking here, we ensure that all thirty slots in the box are checked
+				}
+
+				power = 5 * numMons;
+				
+				if (power == 0)
+					power = 1;
+			}
+			break;
+			
 
 		default:
 			if (gBattleMoves[move].effect == EFFECT_TRIPLE_KICK)
